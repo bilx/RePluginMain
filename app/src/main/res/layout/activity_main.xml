@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/mBtnInstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="安装插件" />
+
+    <Button
+        android:id="@+id/mBtnOpenPlugin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开插件" />
+
+
+    <Button
+        android:id="@+id/mBtnCheckPluginInstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查插件安装" />
+
+    <Button
+        android:id="@+id/mBtnUnInstallPlugin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="卸载插件" />
+
+
+    <Button
+        android:id="@+id/mBtnPluginUsed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插件是否正在被使用" />
+
+
+
+    <!--<Button-->
+    <!--android:id="@+id/mBtnInstallU3d"-->
+    <!--android:text="安装U3d插件"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<Button-->
+    <!--android:id="@+id/mBtnOpenU3d"-->
+    <!--android:text="打开u3d插件"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+</LinearLayout>
